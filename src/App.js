@@ -11,9 +11,9 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path="/" element={ <Home /> } />
-        <Route exact path="/login" element={ <Login /> } />
-        <Route exact path="/register" element={ <Register /> } />
+        <Route exact path="/test-react-anime/" element={ <Home /> } />
+        <Route exact path="/test-react-anime/login" element={ <Login /> } />
+        <Route exact path="/test-react-anime/register" element={ <Register /> } />
       </Routes>
   </Router>
   );
