@@ -11,9 +11,9 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path="/test-react-anime/" element={ <Home /> } />
-        <Route exact path="/test-react-anime/login" element={ <Login /> } />
-        <Route exact path="/test-react-anime/register" element={ <Register /> } />
+        <Route exact path="https://pdfloresjdav.github.io/test-react-anime/" element={ <Home /> } />
+        <Route exact path="https://pdfloresjdav.github.io/test-react-anime/login" element={ <Login /> } />
+        <Route exact path="https://pdfloresjdav.github.io/test-react-anime/register" element={ <Register /> } />
       </Routes>
   </Router>
   );
