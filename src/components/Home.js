@@ -4,6 +4,8 @@ import {
   } from 'react-router-dom';
 import {Right} from "../Right";
 export const Home = () => {
+    let url2 = `${process.env.REACT_APP_PRD_URL}/login`;
+    let url3 = `${process.env.REACT_APP_PRD_URL}/register`;
     return(
         <div className='login'>
           <header className="App-body App-header">
@@ -19,12 +21,12 @@ export const Home = () => {
 
             </div> 
             <Link 
-                    to="https://pdfloresjdav.github.io/test-react-anime/login"
+                    to={url2}
                 >
                 <button className='btn-log'><span>Login</span></button>
             </Link>
             <Link 
-                    to="https://pdfloresjdav.github.io/test-react-anime/register"
+                    to={url3}
                 >
             <button className='btn-reg1'><span>Registro</span></button>
             </Link>

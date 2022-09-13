@@ -5,6 +5,8 @@ import {
 import {SignInWithFacebook,SignInWithTwitter, CreateNative} from "./Firebase";
 import {Right} from "../Right";
 export const Register = () => {
+    let url1 = `${process.env.REACT_APP_PRD_URL}/`;
+    let url2 = `${process.env.REACT_APP_PRD_URL}/login`;
     const handle = (e) => {
         const emailInp = document.getElementById("email-inp");
         const password = document.getElementById("password");
@@ -36,7 +38,7 @@ export const Register = () => {
             <img src="./assets/logo-a.png" className="logo_a" alt="logo" />
             <span className='anime-l anime-t'>anime<span className='yabu-t'>yabu.</span></span>
             <Link 
-                    to="https://pdfloresjdav.github.io/test-react-anime/"
+                    to={url1}
                 >
             <img src="./assets/arrow-l.png" className="arrow-l" alt="logo" />
             </Link>
@@ -59,7 +61,7 @@ export const Register = () => {
             <img src="./assets/insta.png" className="insta" alt="instagram" onClick={SignInWithFacebook}/>
             <img src="./assets/twitter.png" className="twitter" alt="twitter" onClick={SignInWithTwitter}/>
             <img src="./assets/face.png" className="face" alt="facebook" onClick={SignInWithFacebook}/>
-            <span className='reg-foot-w'>Já é membro? <Link to="/login"><span  className='reg-foot-p'>Faça Login</span></Link></span>
+            <span className='reg-foot-w'>Já é membro? <Link to={url2}><span  className='reg-foot-p'>Faça Login</span></Link></span>
             <img src="./assets/home-indicator.png" className="home-indicator" alt="home-indicator" />
         
             </header>
