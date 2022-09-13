@@ -5,8 +5,8 @@ import {
 import {SignInWithFacebook,SignInWithTwitter, CreateNative} from "./Firebase";
 import {Right} from "../Right";
 export const Register = () => {
-    let url1 = `${process.env.REACT_APP_PRD_URL}/`;
-    let url2 = `${process.env.REACT_APP_PRD_URL}/login`;
+    let url1 = `/`;
+    let url2 = `/login`;
     const handle = (e) => {
         const emailInp = document.getElementById("email-inp");
         const password = document.getElementById("password");

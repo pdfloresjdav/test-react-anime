@@ -4,8 +4,8 @@ import {
   } from 'react-router-dom';
 import {Right} from "../Right";
 export const Home = () => {
-    let url2 = `${process.env.REACT_APP_PRD_URL}/login`;
-    let url3 = `${process.env.REACT_APP_PRD_URL}/register`;
+    let url2 = `/login`;
+    let url3 = `/register`;
     return(
         <div className='login'>
           <header className="App-body App-header">
