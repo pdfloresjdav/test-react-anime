@@ -1,0 +1,718 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media only screen and (min-device-width: 760px){
+      .App-body{
+          width: 50%;
+          min-height: 100vh;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          font-size: calc(10px + 2vmin);
+          color: white;
+          height: 1024px;
+      }
+      .App-header {
+          float: left;
+          background-color: #282c34;
+      }
+      .App-header-right{
+          float: right;
+          background-color: #3E1149;
+      }
+      .elipse{
+          position: absolute;
+          width: 548px;
+          height: 548px;
+          left: 794px;
+          top: 63px;
+          background: #E487FB;
+          border-radius: 50%;
+      }
+      .image-test-1{
+          margin-top: 90px;
+      }
+  
+      .anime{
+          position: absolute;
+          width: 628.21px;
+          height: 125px;
+          left: 766px;
+          top: 752px;
+  
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 900;
+          font-size: 80.1282px;
+          line-height: 94px;
+          text-align: center;
+          letter-spacing: 0.065em;
+      }
+      .anime-t{
+          color: #FFFFFF;
+      }
+      .yabu-t{
+          color: #CA38ED;
+      }
+      .foot-text{
+          position: absolute;
+          width: 463px;
+          height: 68px;
+          left: 851px;
+          top: 853px;
+  
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 21px;
+          text-align: center;
+  
+          color: #FFFFFF;
+      }
+      .foot_pags{
+          /* Rectangle 12 */
+  
+          position: absolute;
+          width: 39px;
+          height: 6px;
+          left: 1063px;
+          top: 944px;
+  
+          background: rgba(196, 196, 196, 0.48);
+          border-radius: 53px;
+  
+      }
+      .foot_pags_o{
+          /* Rectangle 13 */
+  
+          position: absolute;
+          width: 39px;
+          height: 6px;
+          left: 1109px;
+          top: 944px;
+  
+          background: rgba(196, 196, 196, 0.48);
+          border-radius: 53px;
+  
+  
+      }
+      .foot_pags_b{
+          /* Rectangle 11 */
+  
+          position: absolute;
+          width: 39px;
+          height: 6px;
+          left: 1017px;
+          top: 944px;
+  
+          background: #C4C4C4;
+          border-radius: 53px;
+  
+      }
+  
+      .logo_a{
+          /* image 1 */
+  
+          position: absolute;
+          width: 46px;
+          height: 46px;
+          left: 23px;
+          top: 19px;
+      }
+  
+      .anime-l{
+          /* animeyabu. */
+  
+          position: absolute;
+          width: 129px;
+          height: 26px;
+          left: 83px;
+          top: 30px;
+  
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 900;
+          font-size: 22px;
+          line-height: 26px;
+          /* identical to box height */
+          text-align: center;
+          letter-spacing: 0.065em;
+  
+      }
+  
+      .img-l-p{
+          /* pack2818 1 */
+  
+          position: absolute;
+          width: 145px;
+          height: 149px;
+          left: 277px;
+          top: 89px;
+  
+      }
+      .img-l-p1{
+          /* pack2779 1 */
+  
+          position: absolute;
+          width: 306px;
+          height: 153px;
+          left: 180px;
+          top: 83px;
+  
+      }
+      .txt-top-1{
+          /* Bem-vindo(a)! */
+  
+          position: absolute;
+          width: 120px;
+          height: 23px;
+          left: 315px;
+          top: 293px;
+  
+          font-family: 'Roboto';
+          font-style: italic;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          letter-spacing: 0.065em;
+  
+          color: #FFFFFF;
+  
+  
+      }
+      .txt-top-2{
+          /* Olá, sentimos sua falta! */
+  
+          position: absolute;
+          width: 286px;
+          height: 23px;
+          left: 200px;
+          top: 297px;
+  
+          font-family: 'Roboto';
+          font-style: italic;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          text-align: center;
+          letter-spacing: 0.065em;
+  
+          color: #FFFFFF;
+  
+  
+      }
+      .jp-txt-l{
+          /* ひさしぶり! */
+  
+          position: absolute;
+          width: 286px;
+          height: 46px;
+          left: 200px;
+          top: 243px;
+  
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 900;
+          font-size: 36.5385px;
+          line-height: 55px;
+          text-align: center;
+          letter-spacing: 0.065em;
+  
+          color: #FFFFFF;
+  
+  
+      }
+      .jp-txt{
+          /* ようこそ! */
+  
+          position: absolute;
+          width: 188px;
+          height: 46px;
+          left: 281px;
+          top: 238px;
+  
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 900;
+          font-size: 36.5385px;
+          line-height: 55px;
+          letter-spacing: 0.065em;
+  
+          color: #FFFFFF;
+  
+  
+      }
+      .email-txt{
+          /* Email */
+  
+          position: absolute;
+          width: 38px;
+          height: 21px;
+          left: 184px;
+          top: 344px;
+  
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 21px;
+          /* identical to box height */
+          letter-spacing: -0.103101px;
+  
+          color: #FFFFFF;
+  
+  
+      }
+      .email-inp{
+          /* bg */
+  
+          box-sizing: border-box;
+  
+          position: absolute;
+          width: 343px;
+          height: 60px;
+          left: 183px;
+          top: 365px;
+  
+          background: rgba(255, 255, 255, 0.47);
+          border: 2px solid #AD3C40;
+          border-radius: 10px;
+  
+      }
+      .email-txt1{
+          /* Email */
+  
+          position: absolute;
+          width: 38px;
+          height: 21px;
+          left: 184px;
+          top: 344px;
+  
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 21px;
+          /* identical to box height */
+          letter-spacing: -0.103101px;
+  
+          color: #FFFFFF;
+  
+  
+      }
+      .email-inp1{
+          /* bg */
+  
+          box-sizing: border-box;
+  
+          position: absolute;
+          width: 343px;
+          height: 60px;
+          left: 183px;
+          top: 365px;
+  
+          background: rgba(255, 255, 255, 0.47);
+          border: 2px solid #ffffff;
+          border-radius: 10px;
+  
+      }
+      .inv-email{
+          /* Email Inválido */
+  
+          position: absolute;
+          width: 96px;
+          height: 21px;
+          left: 419px;
+          top: 429px;
+  
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 21px;
+          /* identical to box height */
+          text-align: center;
+          letter-spacing: -0.103101px;
+  
+          color: #AD3C40;
+  
+  
+      }
+      .password-r1{
+          /* Senha */
+  
+          position: absolute;
+          width: 44px;
+          height: 21px;
+          left: 184px;
+          top: 450px;
+  
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 21px;
+          /* identical to box height */
+          letter-spacing: -0.103101px;
+  
+          color: #FFFFFF;
+  
+  
+      }
+      .password1{/* bg */
+  
+          box-sizing: border-box;
+  
+          position: absolute;
+          width: 343px;
+          height: 60px;
+          left: 183px;
+          top: 470px;
+  
+          background: rgba(255, 255, 255, 0.47);
+          border: 2px solid #FFFFFF;
+          border-radius: 10px;
+      }
+      .eye11{
+          /* Vector */
+  
+          position: absolute;
+          left: 33.68%;
+          right: 64.79%;
+          top: 490px;
+  
+      }
+      .txt-bot-f{
+          /* Esqueci a senha */
+  
+          position: absolute;
+          width: 113px;
+          height: 21px;
+          left: 420px;
+          top: 547px;
+  
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 21px;
+          /* identical to box height */
+          text-align: center;
+          letter-spacing: -0.103101px;
+  
+          color: #E487FB;
+  
+  
+      }
+      .password-r{
+          /* Senha */
+  
+          position: absolute;
+          width: 44px;
+          height: 21px;
+          left: 184px;
+          top: 450px;
+  
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 21px;
+          /* identical to box height */
+          letter-spacing: -0.103101px;
+  
+          color: #FFFFFF;
+  
+  
+      }
+      .password{
+          /* bg */
+  
+          box-sizing: border-box;
+  
+          position: absolute;
+          width: 343px;
+          height: 60px;
+          left: 183px;
+          top: 470px;
+  
+          background: rgba(255, 255, 255, 0.47);
+          border: 2px solid #FFFFFF;
+          border-radius: 10px;
+      }
+      .eye1{
+          /* Vector */
+  
+          position: absolute;
+          left: 33.68%;
+          right: 64.79%;
+          top: 490px;
+  
+      }
+      .passwordc-r{
+          /* Confirmar Senha */
+  
+          position: absolute;
+          width: 118px;
+          height: 21px;
+          left: 184px;
+          top: 556px;
+  
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 21px;
+          /* identical to box height */
+          letter-spacing: -0.103101px;
+  
+          color: #FFFFFF;
+  
+  
+      }
+      .passwordc{
+          /* bg */
+  
+          box-sizing: border-box;
+  
+          position: absolute;
+          width: 343px;
+          height: 60px;
+          left: 183px;
+          top: 575px;
+  
+          background: rgba(255, 255, 255, 0.47);
+          border: 2px solid #FFFFFF;
+          border-radius: 10px;
+  
+      }
+      .eye2{
+          /* Vector */
+  
+          position: absolute;
+          left: 33.68%;
+          right: 64.79%;
+          top: 600px;
+  
+      }
+      .btb-reg{
+          /* bg */
+  
+          box-sizing: border-box;
+  
+          position: absolute;
+          width: 338px;
+          height: 60px;
+          left: 184px;
+          top: 670px;
+  
+          background: #E487FB;
+          border-radius: 10px;
+  
+      }
+      .btb-log{
+          /* bg */
+  
+          box-sizing: border-box;
+  
+          position: absolute;
+          width: 338px;
+          height: 60px;
+          left: 184px;
+          top: 570px;
+  
+          background: #E487FB;
+          border-radius: 10px;
+  
+      }
+      .line1{
+          /* Line 13 */
+  
+          position: absolute;
+          width: 80px;
+          height: 0px;
+          left: 182px;
+          top: 783px;
+  
+          border: 2px solid #FFFFFF;
+      }
+      .line2{
+          /* Line 12 */
+  
+          position: absolute;
+          width: 80px;
+          height: 0px;
+          left: 444px;
+          top: 783px;
+  
+          border: 2px solid #FFFFFF;
+  
+      }
+      .reb-foot-txt{
+          /* Ou se registre com */
+  
+          position: absolute;
+          width: 131px;
+          height: 21px;
+          left: 289px;
+          top: 773px;
+  
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 21px;
+          /* identical to box height */
+          text-align: center;
+          letter-spacing: -0.103101px;
+  
+          color: #FFFFFF;
+  
+  
+      }
+      .insta{
+          /* Rectangle 7 */
+  
+          box-sizing: border-box;
+  
+          position: absolute;
+          width: 51px;
+          height: 51px;
+          left: 236px;
+          top: 814px;
+  
+          background: rgba(255, 255, 255, 0.47);
+          border: 2px solid #FFFFFF;
+          border-radius: 10px;
+  
+      }
+      .inst{
+          /* Path 10 */
+  
+          position: absolute;
+          left: 17.63%;
+          right: 81.26%;
+          top: 81.24%;
+          bottom: 17.21%;
+  
+          background: #FCFDFE;
+  
+      }
+      .twitter{
+          /* Rectangle 8 */
+  
+          box-sizing: border-box;
+  
+          position: absolute;
+          width: 51px;
+          height: 51px;
+          left: 330px;
+          top: 814px;
+  
+          background: rgba(255, 255, 255, 0.47);
+          border: 2px solid #FFFFFF;
+          border-radius: 10px;
+  
+      }
+      .face{
+          /* Rectangle 9 */
+  
+          box-sizing: border-box;
+  
+          position: absolute;
+          width: 51px;
+          height: 51px;
+          left: 424px;
+          top: 814px;
+  
+          background: rgba(255, 255, 255, 0.47);
+          border: 2px solid #FFFFFF;
+          border-radius: 10px;
+  
+      }
+      .reg-foot-w{
+          /* Já é membro? Faça Login */
+          position: absolute;
+          width: 286px;
+          height: 23px;
+          left: 206px;
+          top: 911px;
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 19px;
+          text-align: center;
+          letter-spacing: 0.065em;
+          color: #FFFFFF;
+      }
+      .reg-foot-p{
+          color: #CA38ED;
+      }
+      .arrow-l{
+          /* Group */
+          position: absolute;
+  
+          left: 35px;
+          top: 80px;
+      }
+      .google{
+          position: absolute;
+          top: 780px;
+      }
+      .face1{
+          position: absolute;
+          top: 800px;
+      }
+      .twitter1{
+          position: absolute;
+          top: 850px;
+      }
+      .home-indicator{
+          display: none;
+      }
+      .left{
+          display: none;
+      }
+      .btn-log{
+          /* bg */
+  
+          box-sizing: border-box;
+  
+          position: absolute;
+          width: 200px;
+          height: 60px;
+          left: 40px;
+          bottom: 250px;
+  
+          background: #E487FB;
+          border-radius: 10px;
+          z-index: 100;
+  
+      }
+      .btn-reg1{
+          /* bg */
+  
+          position: absolute;
+          width: 200px;
+          height: 60px;
+          left: 250px;
+          bottom: 250px;
+  
+          background: rgba(255, 255, 255, 0.29);
+          border-radius: 10px;
+  
+      }
+      .hide{
+        display: none;
+      }
+  }
+  

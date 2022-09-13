@@ -1,0 +1,728 @@
+@media only screen and (max-device-width: 760px){
+    .App-body{
+        align-items: center;
+        justify-content: center;
+        font-size: calc(10px + 2vmin);
+        color: white;
+        height: 1024px;
+    }
+    .App-header {
+        background: linear-gradient(180deg, #CA38ED -30.11%, #000000 100%),
+        linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    }
+    .App-header-right{
+        display: none;
+    }
+    .elipse1{
+        position: absolute;
+        width: 350px;
+        height: 350px;
+        left: 23px;
+        top: 63px;
+        background: #E487FB;
+        border-radius: 50%;
+    }
+    .image-test-11{
+        margin-top: 15px;
+        margin-left: -30px;
+        width: 450px;
+    }
+
+    .anime1{
+        /* animeyabu. */
+
+        position: absolute;
+        width: 286.46px;
+        height: 57px;
+        left: 44.77px;
+        top: 518px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 36.5385px;
+        line-height: 43px;
+        text-align: center;
+        letter-spacing: 0.065em;
+
+    }
+    .anime-t1{
+        color: #FFFFFF;
+    }
+    .yabu-t1{
+        color: #CA38ED;
+    }
+    .foot-text1{
+        position: absolute;
+        width: 344px;
+        height: 68px;
+        left: 21px;
+        top: 575px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+    .foot_pags1{
+        /* Rectangle 12 */
+
+        position: absolute;
+        width: 39px;
+        height: 6px;
+        left: 1063px;
+        top: 944px;
+
+        background: rgba(196, 196, 196, 0.48);
+        border-radius: 53px;
+
+    }
+    .foot_pags_o1{
+        /* Rectangle 13 */
+
+        position: absolute;
+        width: 39px;
+        height: 6px;
+        left: 1109px;
+        top: 944px;
+
+        background: rgba(196, 196, 196, 0.48);
+        border-radius: 53px;
+    }
+    .btn-log{
+        /* bg */
+
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 179px;
+        height: 60px;
+        left: 16px;
+        bottom: 80px;
+
+        background: #E487FB;
+        border-radius: 10px;
+        z-index: 100;
+
+    }
+    .btn-reg1{
+        /* bg */
+
+        position: absolute;
+        width: 179px;
+        height: 60px;
+        left: 185px;
+        bottom: 80px;
+
+        background: rgba(255, 255, 255, 0.29);
+        border-radius: 10px;
+
+    }
+    .elipse{
+        position: absolute;
+        width: 548px;
+        height: 548px;
+        left: 794px;
+        top: 63px;
+        background: #E487FB;
+        border-radius: 50%;
+    }
+    .image-test-1{
+        margin-top: 90px;
+    }
+    /* animeyabu. */
+    .anime{
+        position: absolute;
+        width: 628.21px;
+        height: 125px;
+        left: 766px;
+        top: 752px;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 80.1282px;
+        line-height: 94px;
+        text-align: center;
+        letter-spacing: 0.065em;
+    }
+    .anime-t{
+        color: #FFFFFF;
+    }
+    .yabu-t{
+    color: #CA38ED;
+    }
+    .foot-text{
+        position: absolute;
+        width: 463px;
+        height: 68px;
+        left: 851px;
+        top: 853px;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+    
+        color: #FFFFFF;
+    }
+    .foot_pags{
+        /* Rectangle 12 */
+    
+        position: absolute;
+        width: 39px;
+        height: 6px;
+        left: 1063px;
+        top: 944px;
+    
+        background: rgba(196, 196, 196, 0.48);
+        border-radius: 53px;
+  
+    }
+    .foot_pags_o{
+        /* Rectangle 13 */
+    
+        position: absolute;
+        width: 39px;
+        height: 6px;
+        left: 1109px;
+        top: 944px;
+    
+        background: rgba(196, 196, 196, 0.48);
+        border-radius: 53px;
+  
+  
+    }
+    .foot_pags_b{
+        /* Rectangle 11 */
+
+        position: absolute;
+        width: 39px;
+        height: 6px;
+        left: 1017px;
+        top: 944px;
+
+        background: #C4C4C4;
+        border-radius: 53px;
+
+    }
+
+    .logo_a{
+        display: none;
+    }
+
+    .anime-l{
+        display: none;
+    }
+
+    .img-l-p{
+        /* pack2818 1 */
+
+        position: absolute;
+        width: 87px;
+        height: 89px;
+        left: 50px;
+        top: 84px;
+    }
+    .img-l-p1{
+        /* pack2779 1 */
+
+        position: absolute;
+        width: 306px;
+        height: 153px;
+        left: 34px;
+        top: 83px;
+    }
+    .txt-top-1{
+        /* Bem-vindo(a)! */
+
+        position: absolute;
+        width: 120px;
+        height: 23px;
+        left: 141px;
+        top: 143px;
+
+        font-family: 'Roboto';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.065em;
+
+        color: #FFFFFF;
+
+    }
+    .txt-top-2{
+        /* Olá, sentimos sua falta! */
+
+        position: absolute;
+        width: 286px;
+        height: 23px;
+        left: 43px;
+        top: 297px;
+
+        font-family: 'Roboto';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.065em;
+
+        color: #FFFFFF;
+
+
+    }
+    .jp-txt-l{
+        /* ひさしぶり! */
+
+        position: absolute;
+        width: 286px;
+        height: 46px;
+        left: 43px;
+        top: 243px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 36.5385px;
+        line-height: 55px;
+        text-align: center;
+        letter-spacing: 0.065em;
+
+        color: #FFFFFF;
+
+
+    }
+    .jp-txt{
+        /* ようこそ! */
+
+        position: absolute;
+        width: 188px;
+        height: 46px;
+        left: 141px;
+        top: 88px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 36.5385px;
+        line-height: 55px;
+        letter-spacing: 0.065em;
+
+        color: #FFFFFF;
+    }
+    .email-txt{
+        /* Email */
+
+        position: absolute;
+        width: 38px;
+        height: 21px;
+        left: 18px;
+        top: 185px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+        letter-spacing: -0.103101px;
+
+        color: #FFFFFF;
+    }
+    .email-txt1{
+        /* Login */
+    
+        position: absolute;
+        width: 37px;
+        height: 21px;
+        left: 19px;
+        top: 360px;
+    
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+        letter-spacing: -0.103101px;
+    
+        color: #FFFFFF;
+    
+    }
+    .email-inp{
+        /* bg */
+
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 343px;
+        height: 60px;
+        left: 17px;
+        bottom: 570px;
+
+        background: rgba(255, 255, 255, 0.47);
+        border: 2px solid #FFFFFF;
+        border-radius: 10px;
+    }
+    .email-inp1{
+        /* bg */
+    
+        box-sizing: border-box;
+    
+        position: absolute;
+        width: 343px;
+        height: 60px;
+        left: 18px;
+        bottom: 393px;
+    
+        background: rgba(255, 255, 255, 0.47);
+        border: 2px solid #FFFFFF;
+        border-radius: 10px;
+    
+    
+    }
+    .inv-email{
+        /* Email Inválido */
+
+        position: absolute;
+        width: 96px;
+        height: 21px;
+        left: 419px;
+        top: 429px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+        text-align: center;
+        letter-spacing: -0.103101px;
+
+        color: #AD3C40;
+
+
+    }
+
+    .password-r{
+        /* Senha */
+
+        position: absolute;
+        width: 44px;
+        height: 21px;
+        left: 18px;
+        top: 291px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+        letter-spacing: -0.103101px;
+
+        color: #FFFFFF;
+
+
+    }
+    .password-r1{
+        /* Senha */
+    
+        position: absolute;
+        width: 44px;
+        height: 21px;
+        left: 19px;
+        top: 480px;
+    
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+        letter-spacing: -0.103101px;
+    
+        color: #FFFFFF;
+    }
+
+    .password1{
+        /* bg */
+
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 343px;
+        height: 60px;
+        left: 18px;
+        bottom: 279px;
+
+        background: rgba(255, 255, 255, 0.47);
+        border: 2px solid #FFFFFF;
+        border-radius: 10px;
+
+    }
+    .password{
+        /* bg */
+
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 343px;
+        height: 60px;
+        left: 17px;
+        bottom: 465px;
+
+        background: rgba(255, 255, 255, 0.47);
+        border: 2px solid #FFFFFF;
+        border-radius: 10px;
+
+
+    }
+    .eye1{
+        /* Vector */
+
+        position: absolute;
+        left: 80%;
+        top: 340px;
+
+    }
+    .eye11{
+        /* Vector */
+
+        position: absolute;
+        left: 80%;
+        top: 525px;
+
+    }
+    .txt-bot-f{
+        /* Esqueci a senha */
+
+        position: absolute;
+        width: 113px;
+        height: 21px;
+        left: 246px;
+        top: 580px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+        text-align: center;
+        letter-spacing: -0.103101px;
+
+        color: #E487FB;
+
+    }
+    .passwordc-r{
+        /* Confirmar Senha */
+
+        position: absolute;
+        width: 118px;
+        height: 21px;
+        left: 18px;
+        top: 397px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+        letter-spacing: -0.103101px;
+
+        color: #FFFFFF;
+    }
+    .passwordc{
+        /* bg */
+
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 343px;
+        height: 60px;
+        left: 17px;
+        bottom: 360px;
+
+        background: rgba(255, 255, 255, 0.47);
+        border: 2px solid #FFFFFF;
+        border-radius: 10px;
+
+    }
+    .eye2{
+        /* Vector */
+
+        position: absolute;
+        left: 80%;
+        top: 445px;
+
+    }
+    .btb-reg{
+        /* bg */
+
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 340px;
+        height: 60px;
+        left: 18px;
+        bottom: 270px;
+
+        background: #E487FB;
+        border-radius: 10px;
+
+
+    }
+    .btb-log{
+        /* bg */
+
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 338px;
+        height: 60px;
+        left: 184px;
+        top: 570px;
+
+        background: #E487FB;
+        border-radius: 10px;
+
+    }
+    .line1{
+        /* Line 13 */
+
+        position: absolute;
+        width: 80px;
+        height: 0px;
+        left: 19px;
+        top: 623px;
+
+        border: 2px solid #FFFFFF;
+
+    }
+    .line2{
+        /* Line 12 */
+
+        position: absolute;
+        width: 80px;
+        height: 0px;
+        left: 281px;
+        top: 623px;
+
+        border: 2px solid #FFFFFF;
+
+
+    }
+    .reb-foot-txt{
+        /* Usar Login Social */
+
+        position: absolute;
+        width: 117px;
+        height: 21px;
+        left: 133px;
+        top: 613px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+        text-align: center;
+        letter-spacing: -0.103101px;
+
+        color: #FFFFFF;
+
+    }
+    .insta{
+        /* Group 100 */
+
+        position: absolute;
+        width: 51px;
+        height: 51px;
+        left: 73px;
+        top: 654px;
+
+
+    }
+    .twitter{
+        /* Group 99 */
+
+        position: absolute;
+        width: 51px;
+        height: 51px;
+        left: 167px;
+        top: 654px;
+
+    }
+    .face{
+        /* Group 98 */
+
+        position: absolute;
+        width: 51px;
+        height: 51px;
+        left: 261px;
+        top: 654px;
+
+    }
+    .reg-foot-w{
+        /* Já é membro? Faça Login */
+
+        /* Não tem conta? Registre-se */
+
+        position: absolute;
+        width: 286px;
+        height: 23px;
+        left: 45px;
+        top: 742px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.065em;
+
+        color: #FFFFFF;
+
+
+
+    }
+    .reg-foot-p{
+        color: #CA38ED;
+
+    }
+    .arrow-l{
+        /* Group */
+
+        position: absolute;
+        left: 10%;
+        top: 5.42%;
+
+    }
+    .home-indicator{
+        /* Home Indicator */
+
+        position: absolute;
+        left: 32%;
+        right: 32.27%;
+        top: 98.03%;
+        bottom: 1.35%;
+
+
+    }
+    .hide{
+        display: none;
+    }
+
+}
