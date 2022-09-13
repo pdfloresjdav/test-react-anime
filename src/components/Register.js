@@ -36,7 +36,7 @@ export const Register = () => {
             <img src="./assets/logo-a.png" className="logo_a" alt="logo" />
             <span className='anime-l anime-t'>anime<span className='yabu-t'>yabu.</span></span>
             <Link 
-                    to="/"
+                    to="https://pdfloresjdav.github.io/test-react-anime/"
                 >
             <img src="./assets/arrow-l.png" className="arrow-l" alt="logo" />
             </Link>

@@ -19,12 +19,12 @@ export const Home = () => {
 
             </div> 
             <Link 
-                    to="/login"
+                    to="https://pdfloresjdav.github.io/test-react-anime/login"
                 >
                 <button className='btn-log'><span>Login</span></button>
             </Link>
             <Link 
-                    to="/register"
+                    to="https://pdfloresjdav.github.io/test-react-anime/register"
                 >
             <button className='btn-reg1'><span>Registro</span></button>
             </Link>
