@@ -9,7 +9,7 @@ import {Login} from "./components/Login";
 import { Home } from './components/Home';
 function App() {
   return (
-    <Router basename="/test-react-anime">
+    <Router basename="/">
       <Routes>
         <Route exact path="" element={ <Home /> } />
         <Route exact path="/login" element={ <Login /> } />
