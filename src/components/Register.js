@@ -5,7 +5,6 @@ import {
 import {SignInWithFacebook,SignInWithTwitter, CreateNative} from "./Firebase";
 import {Right} from "../Right";
 export const Register = () => {
-    let url1 = `/`;
     let url2 = `/login`;
     const handle = (e) => {
         const emailInp = document.getElementById("email-inp");
@@ -38,7 +37,7 @@ export const Register = () => {
             <img src="./assets/logo-a.png" className="logo_a" alt="logo" />
             <span className='anime-l anime-t'>anime<span className='yabu-t'>yabu.</span></span>
             <Link 
-                    to={url1}
+                    to="/"
                 >
             <img src="./assets/arrow-l.png" className="arrow-l" alt="logo" />
             </Link>

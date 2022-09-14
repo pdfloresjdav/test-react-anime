@@ -11,7 +11,7 @@ function App() {
   return (
     <Router basename="/test-react-anime">
       <Routes>
-        <Route exact path="/" element={ <Home /> } />
+        <Route exact path="" element={ <Home /> } />
         <Route exact path="/login" element={ <Login /> } />
         <Route exact path="/register" element={ <Register /> } />
       </Routes>
